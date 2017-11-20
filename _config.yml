@@ -1,11 +1,11 @@
-title: Hexo
-subtitle: "A fast, simple & powerful blog framework powered by Node.js."
-description: "Hexo is a fast, simple & powerful blog framework powered by Node.js."
-author: Hexo
-language: en
-timezone: UTC
+title: CycPos记录
+subtitle: CycPos更新记录以及异常处理
+description: 侧重于记录CycPos的维护技术博客
+author: Asine Tan
+language: zh-cn
+timezone: UTC+8
 
-url: https://hexo.io
+url: https://cyc.oy99.com
 root: /
 permalink: news/:year/:month/:day/:title/
 archive_dir: news
@@ -14,7 +14,7 @@ new_post_name: :year-:month-:day-:title.md # File name of new posts
 post_asset_folder: true
 per_page: 0
 
-theme: navy
+theme: miho
 deploy:
   type: git
   repo: git@github.com:hexojs/hexojs.github.io.git
