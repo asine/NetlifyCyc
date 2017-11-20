@@ -2,7 +2,7 @@ title: "CycPos记录"
 subtitle: "CycPos更新记录以及异常处理"
 description: "侧重于记录CycPos的维护技术博客"
 author: Asine Tan
-#language: zh-cn
+language: en
 timezone: UTC
 
 url: https://cyc.oy99.com
@@ -14,7 +14,7 @@ new_post_name: :year-:month-:day-:title.md # File name of new posts
 post_asset_folder: true
 per_page: 0
 
-theme: mihoasine
+theme: miho
 deploy:
   type: git
   repo: git@github.com:hexojs/hexojs.github.io.git
