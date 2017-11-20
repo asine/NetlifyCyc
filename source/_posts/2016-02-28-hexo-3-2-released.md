@@ -2,8 +2,8 @@ title: Hexo 3.2 Released 说明
 date: 2016/2/28 21:52:11
 updated: 2017/11/20 21:00:00
 tags:
-  -Hexo
-  -Cyc
+  - Hexo
+  - Cyc
 categories: CycPos
 ---
 It has been a long time that Hexo is poor at handling large website. ([#710], [#1124], [#283], [#1187], [#550], [#1769], etc.) We tried hard to solve this problem and there're several improvements in Hexo 3.2.
