@@ -7,7 +7,7 @@ description: "侧重于记录CycPos的维护技术博客"
 # 主要用户主题显示文章的作者
 author: Asine Tan
 # 网站使用的语言
-language: en
+language: zh-CN
 # 网站时区，比如：UTC，America/New_York，Asia/Shanghai
 timezone: Asia/Shanghai
 
