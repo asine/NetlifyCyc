@@ -3,10 +3,10 @@
     <div id="header-outer">
         <div id="header-menu" class="header-menu-pos animated">
             <div class="header-menu-container">
-                <a href="<%- url_for() %>" class="left">
+                <a href="<%- url_for() %>" class="left" title="<%= theme.header_description %>">
+                    <img src="<%- url_for(theme.logo) %>" alt="<%- config.author %>">
                     <span class="site-title"><%= theme.header_title %></span>
-                </a>
-                <span><%= theme.header_description %></span>
+                </a>                
                 <nav id="header-menu-nav" class="right">
                     <% for (var i in theme.menu) { %>
                     <a <% if(theme.menu[i].target){ %>target="_blank"<% } %> <% if(theme.menu[i].url){ %>href="<%- url_for(theme.menu[i].url) %><% } %>">
