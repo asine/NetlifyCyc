@@ -6,6 +6,7 @@
                 <a href="<%- url_for() %>" class="left">
                     <span class="site-title"><%= theme.header_title %></span>
                 </a>
+                <span><%= theme.header_description %></span>
                 <nav id="header-menu-nav" class="right">
                     <% for (var i in theme.menu) { %>
                     <a <% if(theme.menu[i].target){ %>target="_blank"<% } %> <% if(theme.menu[i].url){ %>href="<%- url_for(theme.menu[i].url) %><% } %>">
@@ -19,18 +20,14 @@
                 </a>
             </div>
         </div>
+        <!--
         <div id="header-row">
             <div id="logo">
                 <a href="<%- url_for() %>">
                     <img src="<%= url_for(theme.logo) %>" alt="logo">
-                </a>
-                <% if (theme.header_description){ %>
-                    <h3>
-                        <%= theme.header_description %>
-                    </h3>
-                <% } %>
+                </a>                
             </div>
-            <!--
+            
             <div class="header-info">
                 <div id="header-title">
                     <% if (theme.header_title){ %>
@@ -47,8 +44,8 @@
                     <% } %>
                 </div>
             </div>
-            -->
-            <!--
+            
+            
             <nav class="header-nav">
                 <div class="social">
                     <% for (var i in theme.social) { %>
@@ -57,7 +54,8 @@
                     <% } %>
                 </div>
             </nav>
-            -->
+            
         </div>
+        -->
     </div>
 </header>
