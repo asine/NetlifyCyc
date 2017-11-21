@@ -14,7 +14,7 @@ header_description: CycPos更新记录以及异常处理
 # Link to your logo | logo地址
 logo: images/logo.png
 # Link to your banner_img | 首页banner图地址
-banner_img: images/banner.jpg
+banner_img: images/banner1.jpg
 # Menu setting | 菜单设置
 #  name:                  Font Awesome icon | Font Awesome 图标
 #    title: Home          Title | 标题
@@ -69,7 +69,7 @@ social:
 # Excerpt length | 摘录长度
 excerpt_length: 190
 # Excerpt link | 摘录链接
-excerpt_link: more>>
+excerpt_link: 阅读全文>>
 # New window open link | 新窗口打开文章
 open_new_link: false
 # Article default cover picture，size：350*150 | 文章默认封面图，尺寸：350*150
