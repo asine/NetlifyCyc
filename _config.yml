@@ -9,7 +9,7 @@ author: Asine Tan
 # 网站使用的语言
 language: zh-CN
 # 网站时区，比如：UTC，America/New_York，Asia/Shanghai
-timezone: Asia/Shanghai
+timezone: UTC
 
 # 网站网址
 url: https://cyc.oy99.com
