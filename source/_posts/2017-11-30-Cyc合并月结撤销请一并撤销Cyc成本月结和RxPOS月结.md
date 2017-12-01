@@ -1,4 +1,4 @@
-title: 2017-11-30-Cyc合并月结撤销请一并撤销Cyc成本月结和RxPOS月结
+title: Cyc合并月结撤销请一并撤销Cyc成本月结和RxPOS月结
 tags:
   - CycPos月结，CycPos
 categories: CycPos提示
@@ -14,4 +14,4 @@ updated: 2017-12-01 10:52
     
 #### 结果
     
-Cyc合并月结撤销请一并撤销Cyc成本月结和RxPOS月结
+Cyc合并月结撤销请一并撤销Cyc成本月结和RxPOS月结。
