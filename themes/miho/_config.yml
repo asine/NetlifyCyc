@@ -103,6 +103,8 @@ reward:
   wechat: images/wechat_code.jpg
   # 支付宝，关闭设为 false
   alipay: images/alipay_code.jpg
+  # 红包
+  hongbao: images/hongbao.png
 
 # Comments | 评论
 
