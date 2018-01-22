@@ -103,8 +103,6 @@ reward:
   wechat: images/wechat_code.jpg
   # 支付宝，关闭设为 false
   alipay: images/alipay_code.jpg
-  # 红包
-  hongbao: images/hongbao.png
 
 # Comments | 评论
 
@@ -136,3 +134,4 @@ access_counter:
 copyright: 2017 Cyc.oy99.com
 
 taobao1212: images/taobao1212-440-180.jpg
+hongbao: images/hongbao.png
