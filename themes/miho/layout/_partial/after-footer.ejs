@@ -35,7 +35,7 @@
   })();
 </script>
 <% } %>
-
+-->
 
 <% if (theme.valine.enable && theme.valine.appId && theme.valine.appKey) { %>
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
@@ -54,14 +54,13 @@
       appId: "<%= theme.valine.appId %>",
       appKey: "<%= theme.valine.appKey %>",
       placeholder: "<%= theme.valine.placeholder %>",
-      pageSize: "<%= theme.valine.pageSize %>",
-      avatar: "<%= theme.valine.avatar %>",
-      lang: "<%= theme.valine.lang %>",
+      pageSize: '<%= theme.valine.pageSize %>',
+      avatar: '<%= theme.valine.avatar %>',
+      lang: '<%= theme.valine.lang %>',
       path: "/"
     });
   </script>
 <% } %>
--->
 
 <% if (theme.fancybox){ %>
   <%- css('fancybox/jquery.fancybox') %>

@@ -116,7 +116,7 @@ disqus: false
 
 # valine comment system.
 valine:
-  enable: false
+  enable: true
   appId: HIzLHl0SoKVtViFxk9kVePrz-gzGzoHsz
   appKey: AajVHidjk26jvDxqUrABJygW
   notify: false

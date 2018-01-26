@@ -56,7 +56,7 @@ highlight:
   enable: true
   line_number: true
 
-disqus_shortname: hexojs
+disqus_shortname: false
 google_analytics: UA-48498357-3
 fb_admins: 100000247608790
 algolia:
