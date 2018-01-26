@@ -112,7 +112,7 @@ changyan_appkey: false
 # 友言，输入id
 youyan_id: false
 # disqus
-disqus: false
+disqus: hexojs
 
 # valine comment system.
 valine:
