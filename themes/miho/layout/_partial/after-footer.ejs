@@ -35,12 +35,10 @@
   })();
 </script>
 <% } %>
--->
 
 <% if (theme.valine.enable && theme.valine.appId && theme.valine.appKey) { %>
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
-  <!--
   <script>
     var GUEST_INFO=['nick','mail','link'];
     var guest_info='<%= theme.valine.guest_info %>'.split(',').filter(function(item){
@@ -58,11 +56,12 @@
       pageSize: '<%= theme.valine.pageSize %>',
       avatar: '<%= theme.valine.avatar %>',
       lang: '<%= theme.valine.lang %>',
-      path: '/'
+      path: '/',
+      guest_info: guest_info
     });
   </script>
-  -->
 <% } %>
+-->
 
 <% if (theme.fancybox){ %>
   <%- css('fancybox/jquery.fancybox') %>
