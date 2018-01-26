@@ -114,6 +114,19 @@ youyan_id: false
 # disqus
 disqus: false
 
+# valine comment system.
+valine:
+  enable: true
+  appId: HIzLHl0SoKVtViFxk9kVePrz-gzGzoHsz
+  appKey: AajVHidjk26jvDxqUrABJygW
+  notify: false
+  verify: false
+  pageSize: 10
+  avatar: mm
+  lang: zh-cn
+  placeholder: 请留下你的脚印
+  guest_info: nick,mail,link 
+
 # Analytics | 分析
 # 站长分析，输入站点id
 cnzz_analytics: false

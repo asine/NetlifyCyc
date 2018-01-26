@@ -63,6 +63,7 @@
 <% } %>
 <!--
 <% if (!index && post.comments){ %>
+    
     <% if (theme.changyan_appid && theme.changyan_appkey){ %>
         <%- partial('plugins/comments/changyan', {
             key: post.slug,
@@ -84,6 +85,15 @@
                 </script>
                 <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
             </div>
+        </section>
+    <% } %>
+    
+    <% if (theme.valine.enable) { %>
+        <a href="<%- url_for(post.path) %>#comment" class="article-comment-link">
+            <span  class="post-comments-count valine-comment-count" data-xid="<%- url_for(post_path) %>" itemprop="commentCount"></span>
+            <%= __('comment') %>
+        </a>
+        <section id="comments"  class="vcomment">
         </section>
     <% } %>
 <% } %>
