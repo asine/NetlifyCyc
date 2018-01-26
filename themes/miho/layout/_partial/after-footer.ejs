@@ -37,7 +37,7 @@
 <% } %>
 -->
 
-<% if(theme.valine.enable && theme.valine.appId && theme.valine.appKey){%>
+<% if (theme.valine.enable && theme.valine.appId && theme.valine.appKey) { %>
   <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
   <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
   <script>
@@ -56,7 +56,7 @@
       placeholder: "<%= theme.valine.placeholder %>",
       pageSize: "<%= theme.valine.pageSize %>",
       avatar: "<%= theme.valine.avatar %>",
-      lang: "<%= theme.valine.lang %>',
+      lang: "<%= theme.valine.lang %>",
       path: "/"
     });
   </script>
